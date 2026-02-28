@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ROI #1</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Ejercicio #1</a></li>
+            <li><a href="Ejercicio2.html">Ejercicio #2</a></li>
+            <li style="font-size: 15px; right: 0; position: absolute; color: white;">By Kevin & Saul</li>
+            
+        </ul>
+    </nav>
+    <h1 class="title">Ejercicio #1: Cálculo e Interpretación
+del ROI en un Proyecto de Desarrollo
+de Software</h1>
+<div>
+     <h2 class="h2">Parte 1: Clasificación de los ingresos y gastos</h2>
+
+</div>
+
+<table>
+        <thead>
+            <tr>
+                <th style="background-color: red; font-size: 20px; color: white;">Gastos</th>
+                <th style="color: white;">Tipo de gastos</th>
+                <th style="color: white;">Monto</th>
+               
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>SALARIOS DEL EQUIPO DE DESARROLLO (4 PERSONAS
+POR 6 MESES)</td>
+
+                
+                <td><span class="status active">Fijo</span></td>
+                <td>$96,000</td>
+                
+            </tr>
+            <tr>
+           
+                <td>LICENCIAS DE SOFTWARE Y HERRAMIENTAS (IDE,
+SERVIDORES, APIS, ETC.)</td>
+               
+                <td><span class="status active">Fijo</span></td>
+
+                <td>$5,000</td>
+                
+            </tr>
+            <tr>
+              
+                <td>INFRAESTRUCTURA EN LA NUBE (AWS, AZURE, ETC.)</td>
+               
+                <td><span class="status active">Variable</span></td>
+
+                <td>$12,000</td>
+                
+            </tr>
+            <tr>
+               
+                <td>DOMINIO Y HOSTING DEL SITIO WEB</td>
+               
+                <td><span class="status active">Fijo</span></td>
+                <td>$1,000</td>
+                
+            </tr>
+            <tr>
+               
+                <td>PUBLICIDAD Y MARKETING DIGITAL</td>
+               
+                <td><span class="status active">Fijo</span></td>
+
+                <td>$8,000</td>
+                
+            </tr>
+            <tr>
+              
+                <td>SOPORTE Y MANTENIMIENTO POST-LANZAMIENTO </td>
+               
+                <td><span class="status active">Variable</span></td>
+
+                <td>$10,000</td>
+                
+            </tr>
+
+            <tr>
+                
+                <td>GASTOS ADMINISTRATIVOS Y LEGALES</td>
+               
+                <td><span class="status active">Fijo</span></td>
+
+                <td>$3,000</td>
+                
+            </tr>
+            <td><strong>TOTAL GASTOS</strong></td>
+                <td><strong>$135,000</strong></td>
+        </tbody>
+    </table>
+    
+    
+</div>
+
+    <table>
+        <thead>
+            <tr>
+                <th style="background-color: rgb(0, 255, 21); font-size: 20px;">Ingresos</th>
+                <th style="color: white;">Monto</th>
+               
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>VENTA DE SUSCRIPCIONES A USUARIOS (1,500 Anuales $80 cada una)</td>
+
+                
+            
+                <td>$120,000</td>
+
+
+                
+            </tr>
+            <tr>
+           
+                <td>LICENCIAS VENDIDAD A EMPRESAS</td>
+               
+       
+                <td>$40,000</td>
+                
+            </tr>
+            <tr>
+              
+                <td>PUBLICIDAD DENTRO DE LA PLATAFORMA</td>
+               
+            
+
+                <td>$15,000</td>
+                
+            </tr>
+            <tr>
+                <td><strong>TOTAL INGRESOS</strong></td>
+                <td><strong>$175,000</strong></td>
+            </tr>
+            
+        </tbody>
+    </table>
+
+    <div>
+     <h2 class="h2" style="margin-top: 100px;">Parte 2: Cálculo del ROI</h2>
+
+
+    </div>
+
+    <table class="roi-table">
+        <tr>
+            <th colspan="2" class="roi-header">Datos Financieros</th>
+        </tr>
+        <tr>
+            <td>Ingresos Totales</td>
+            <td>$175,000</td>
+        </tr>
+        <tr>
+            <td>Gastos Totales</td>
+            <td>$135,000</td>
+        </tr>
+        <tr class="roi-result" >
+            <td>Beneficio Neto</td>
+            <td id="neto" >a</td>
+        </tr>
+
+        <tr>
+            <th colspan="2" class="roi-header">Fórmulas Utilizadas</th>
+        </tr>
+        <tr class="roi-formula">
+            <td colspan="2">Beneficio Neto = Ingresos Totales − Gastos Totales</td>
+        </tr>
+        <tr class="roi-formula">
+            <td colspan="2">ROI = Beneficio Neto / Costo de Inversión × 100</td>
+        </tr>
+
+        <tr>
+            <td>Costo de Inversión</td>
+            <td>$135,000</td>
+        </tr>
+        <tr class="roi-result">
+            <td >ROI</td>
+            <td id="roi">a</td>
+        </tr>
+    </table>
+
+    <div style="width:80%; margin:60px auto; background:white; padding:25px; box-shadow:0 5px 15px rgba(0,0,0,0.1); border-radius:10px;">
+
+    <h2 style="text-align: center;
+    font-size: 28px;
+    margin-bottom: 40px;
+    color: #2c3e50;
+    position: relative;
+
+    ">Cálculo Matemático Detallado</h2>
+
+    <h3> Cálculo del Beneficio Neto</h3>
+    <p>
+        Beneficio Neto = (Ingresos Totales) − ( Gastos Totales)
+    </p>
+    <p>
+        Beneficio Neto = (175,000) − (135,000)
+    </p>
+    <p>
+        <strong>Beneficio Neto = 40,000 USD</strong>
+    </p>
+
+    <hr style="margin:20px 0;">
+
+    <h3> Cálculo del ROI</h3>
+    <p>
+        ROI = Beneficio Neto / Costo de Inversión × 100
+    </p>
+    <p>
+        ROI = (40,000 / 135,000) × 100
+    </p>
+    <p>
+        ROI = 0.296 × 100
+    </p>
+    <p>
+        <strong>ROI = 29.63%</strong>
+    </p>
+
+    <hr style="margin:20px 0;">
+
+    <h3> Tiempo estimado de recuperación</h3>
+    <p>
+        Tiempo de recuperación = Inversión Total / Beneficio Neto Anual
+    </p>
+    <p>
+        Tiempo = 135,000 / 40,000
+    </p>
+    <p>
+        <strong>Tiempo ≈ 3 años</strong>
+    </p>
+
+</div>
+
+   <section class="qa-section">
+    <h2 class="qa-title">Interpreta el resultado:</h2>
+
+    <div class="qa-card">
+        <h3 class="qa-question">¿Es rentable el proyecto? ¿Por qué?</h3>
+        <p class="qa-answer">Sí, porque el ROI es positivo y igual al 29.63%, lo que indica que la inversión genera ganancias.</p>
+    </div>
+    <div class="qa-card">
+        <h3 class="qa-question">¿Cuánto dinero genera la empresa por cada dólar invertido?</h3>
+        <p class="qa-answer">Se obtiene una ganancia de $0.30 por cada dólar invertido, es decir, se recupera $1.30 en total por cada $1 invertido.</p>
+    </div>
+    <div class="qa-card">
+        <h3 class="qa-question">¿Cuánto tiempo tardaría en recuperar la inversión si mantiene estos
+ingresos? </h3>
+        <p class="qa-answer">Teniendo en cuanto que anualmete se mantiene el mismo ingreso se podría tardar 3 años y aproximadamente 4–5 meses, en poder recuperar la inversión.   </p>
+    </div>
+</section>
+
+<section class="strategy-section">
+
+    <h2 class="strategy-title">Parte 3: Estrategias de Mejora</h2>
+
+    <div class="strategy-grid">
+
+        <div class="strategy-card">
+            <h3>📈 Optimización de Costos</h3>
+            <p>
+                Reducir gastos en infraestructura mediante optimización de servidores
+                y negociación de licencias de software para mejorar el margen de ganancia.
+            </p>
+        </div>
+
+        <div class="strategy-card">
+            <h3>🚀 Aumento de Suscripciones</h3>
+            <p>
+                Implementar campañas de marketing digital más segmentadas y
+                ofrecer planes premium que ofrezcan funciones totalmente únicas, haciendo las clases mas interactivas y divertidas y adémas de permitir dejar asignaciónes a los estudintes para tener las evaluaciones en orden, Incrementando los ingresos recurrentes.
+            </p>
+        </div>
+
+        <div class="strategy-card">
+            <h3>🤝 Expansión Empresarial</h3>
+            <p>
+                Buscar alianzas estratégicas con instituciones y ampliar el mercado
+                a escuelas, colegios, universidades privadas/públcicas y empresas que necesiten capacitar sus empleados para aumentar las licencias educativas en diferentes sectores .
+            </p>
+        </div>
+
+        <div class="strategy-card">
+            <h3>💡 Monetización Adicional</h3>
+            <p>
+                Integrar nuevas fuentes de ingreso como publicidad optimizada,
+                funcionalidades exclusivas o servicios adicionales.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>

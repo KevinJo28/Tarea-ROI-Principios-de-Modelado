@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Ejercicio #1</a></li>
+            <li><a href="Ejercicio2.html">Ejercicio #2</a></li>
+            <li style="font-size: 15px; right: 0; position: absolute; color: white;">By Kevin & Saul</li>
+        </ul>
+    </nav>
+
+    <h1 class="title">Ejercicio #2: Implementación de un Sistema ERP y Cálculo del ROI</h1>
+
+<div>
+     <h2 class="h2">Parte 1: Clasificación de los costos</h2>
+</div>
+
+<table>
+        <thead>
+            <tr>
+                <th style="background-color: red; font-size: 20px; color: white;">Inversión</th>
+                <th style="color: white;">Monto</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>CAPACITACIÓN DEL PERSONAL</td>
+                <td>$15,000</td>
+            </tr>
+            <tr>
+                <td>COSTO DE DESARROLLO DEL SOFTWARE</td>
+                <td>$150,000</td>
+            </tr>
+            <tr>
+                <td><strong>TOTAL INVERSIÓN</strong></td>
+                <td><strong>$165,000</strong></td>
+            </tr>
+        </tbody>
+</table>
+
+<table>
+        <thead>
+            <tr>
+                <th style="background-color: orange; font-size: 20px;  color: white;">Gastos Operativos</th>
+                <th style="color: white;">Monto</th>
+            </tr>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>INFRAESTRUCTURA (SERVIDORES, BASE DE DATOS, HOSTING)</td>
+                <td>$30,000</td>
+            </tr>
+            <tr>
+                <td>SOPORTE Y MANTENIMIENTO DEL SOFTWARE</td>
+                <td>$20,000</td>
+            </tr>
+            <tr>
+                <td><strong>TOTAL GASTOS OPERATIVOS</strong></td>
+                <td><strong>$50,000</strong></td>
+            </tr>
+        </tbody>
+</table>
+
+<table>
+        <thead>
+            <tr>
+                <th style="background-color: rgb(0, 255, 21); font-size: 20px;  color: white;">Ingresos y Ahorros</th>
+                <th style="color: white;">Monto</th>
+            </tr>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>AHORRO EN REDUCCIÓN DE TIEMPOS DE OPERACIÓN </td>
+                <td>$50,000</td>
+            </tr>
+            <tr>
+                <td>REDUCCIÓN DE ERRORES EN INVENTARIOS Y PEDIDOS</td>
+                <td>$40,000</td>
+            </tr>
+            <tr>
+                <td>AUMENTO EN VENTAS POR MEJOR GESTIÓN DE CLIENTES</td>
+                <td>$100,000</td>
+            </tr>
+            <tr>
+                <td>REDUCCIÓN DE COSTOS OPERATIVOS </td>
+                <td>$30,000</td>
+            </tr>
+            <tr>
+                <td><strong>TOTAL BENEFICIOS</strong></td>
+                <td><strong>$220,000</strong></td>
+            </tr>
+        </tbody>
+</table>
+
+<div>
+     <h2 class="h2" style="margin-top: 100px;">Parte 2: Cálculo del ROI</h2>
+</div>
+
+<table class="roi-table">
+        <tr>
+            <th colspan="2" class="roi-header">Datos Financieros</th>
+        </tr>
+        <tr>
+            <td>Ingresos + Ahorros</td>
+            <td>$220,000</td>
+        </tr>
+        <tr>
+            <td>Inversión Total + Gastos Operativos</td>
+            <td>$215,000</td>
+        </tr>
+        <tr class="roi-result">
+            <td>Beneficio Neto</td>
+            <td id="neto2">a</td>
+        </tr>
+
+        <tr>
+            <th colspan="2" class="roi-header">Fórmulas Utilizadas</th>
+        </tr>
+        <tr class="roi-formula">
+            <td colspan="2">
+                Beneficio Neto = (Ingresos + Ahorros) − (Inversión Total + Gastos Operativos)
+            </td>
+        </tr>
+        <tr class="roi-formula">
+            <td colspan="2">
+                ROI = Beneficio Neto / Inversión Total × 100
+            </td>
+        </tr>
+
+        <tr>
+            <td>Costo de Inversión</td>
+            <td>$165,000</td>
+        </tr>
+        <tr class="roi-result">
+            <td>ROI</td>
+            <td id="roi2">a</td>
+        </tr>
+</table>
+
+<div style="width:80%; margin:60px auto; background:white; padding:25px; box-shadow:0 5px 15px rgba(0,0,0,0.1); border-radius:10px;">
+
+    <h2 style="text-align: center;
+    font-size: 28px;
+    margin-bottom: 40px;
+    color: #2c3e50;
+    position: relative;
+
+    ">Cálculo Matemático Detallado</h2>
+
+    <h3> Cálculo del Beneficio Neto</h3>
+    <p>
+        Beneficio Neto = (Ingresos + Ahorros) − (Inversión Total + Gastos Operativos)
+    </p>
+    <p>
+        Beneficio Neto = (220,000) − (215,000)
+    </p>
+    <p>
+        <strong>Beneficio Neto = 5,000 USD</strong>
+    </p>
+
+    <hr style="margin:20px 0;">
+
+    <h3> Cálculo del ROI</h3>
+    <p>
+        ROI = Beneficio Neto / Inversión Total × 100
+    </p>
+    <p>
+        ROI = (5,000 / 165,000) × 100
+    </p>
+    <p>
+        ROI = 0.0303 × 100
+    </p>
+    <p>
+        <strong>ROI = 3.03%</strong>
+    </p>
+
+    <hr style="margin:20px 0;">
+
+    <h3> Tiempo estimado de recuperación</h3>
+    <p >
+        Inversión = $165,000
+        
+
+       
+      
+
+
+       
+
+        
+
+
+      
+
+    </p>
+    <p>
+        *Primer Año 
+
+    </p>
+    <p> Ganancia Neta = $5,000
+</p>
+    <p>  Inversión Restante $160,000</p>
+    <p> *Segundo Año</p>
+    <p>Ganancia Neta = (Ingresos + Ahorros) − (Gastos Operativos)</p>
+    <p>
+        Ganancia Neta = (220,000) − (50,000) = $170,000</p>
+    <p>  Inversión pagada</p>
+ 
+    <p>
+        <strong>Tiempo ≈ 2 años</strong>
+    </p>
+
+</div>
+
+<section class="qa-section">
+    <h2 class="qa-title">Interpreta el resultado:</h2>
+
+    <div class="qa-card">
+        <h3 class="qa-question">¿La inversión en el software fue rentable para la empresa? ¿Por qué?</h3>
+        <p class="qa-answer">
+            Sí. pero no del todo, ya que tomando en cuenta el ROI, solo lograron ganar más del 3% de lo invertido, por lo que se presenta como una inversion muy riesgosa al devolver tan pocas ganancias. Pero a la larga puede terminar generando muy buenas ganancias.
+        </p>
+    </div>
+
+    <div class="qa-card">
+        <h3 class="qa-question">¿Cuánto dinero genera la empresa por cada dólar invertido?</h3>
+        <p class="qa-answer">
+            Por cada dólar invertido, la empresa gana aproximadamente $0.03 adicionales, es decir, recupera $1.03 en total por cada $1 invertido.
+        </p>
+    </div>
+
+    <div class="qa-card">
+        <h3 class="qa-question">¿Cuánto tiempo tardaría en recuperar la inversión?</h3>
+        <p class="qa-answer">
+         
+Con la información proporcionada solo del primer año, el beneficio neto fue de $5,000. Para el segundo año ya no hay inversión incial solo gastos operativos por lo tanto habría una ganancia de $170,000 por lo que para el segundo año ya se recupera la inversión.
+
+        </p>
+    </div>
+</section>
+
+<section class="strategy-section">
+
+    <h2 class="strategy-title">Parte 3: Estrategias de Mejora</h2>
+
+    <div class="strategy-grid">
+
+        <div class="strategy-card">
+            <h3>📈 Optimización de Costos</h3>
+            <p>
+               Una manera de poder mejorar la rentabilidad puede ser optimizando la infraestructura de manera que se logren  bajar costos operativos, no directamente utilizando peores infraestructura, sino que por ejemplo se puede intentar migrar a nubes más eficientes que permitan menos gastos en infraestructura; tambien queda la opción de lograr negociar contratos con empresas tecnologicas los cuales permitan obtener mejores precios a cambio del uso del software.
+            </p>
+        </div>
+
+        <div class="strategy-card">
+            <h3>🤖 Automatización de procesos</h3>
+            <p>
+                Se puede intentar mejorar en la parte de automatización de procesos logrando mayores ahorros para las empresa, mejorar en partes como lo pueden ser automatización contable, automatización de compras y la integración con proveedores, pueden permiten generar ahorros aún más grandes en gastos como tiempo, errores e incluso en personal.
+            </p>
+        </div>
+
+        <div class="strategy-card">
+            <h3>💡 Monetización </h3>
+            <p>
+               Como ultima estrategia se puede tomar en cuenta la idea de monetizar este ERP convirtiendolo en un producto que la empresa lo pueda vender para generar mayores ingresos gracias a la venta de este, al igual que se puede licenciar este producto para que lo utilizen diversos proveedores o aliados, logrando generar mayores ganancias a base de la venta del producto. 
+            </p>
+        </div>
+
+    </div>
+
+</section>
+<script src="script2.js"></script>
+
+</body>
+</html>
