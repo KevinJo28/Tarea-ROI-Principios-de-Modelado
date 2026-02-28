@@ -18,6 +18,8 @@ body{
 
 nav{
     width: 90%;
+    height: 70px;
+    
    
     position: static;
     background-color: rgb(168, 168, 168);
